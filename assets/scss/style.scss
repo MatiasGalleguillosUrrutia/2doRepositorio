@@ -1,0 +1,59 @@
+//Base
+
+@import "base/reset";
+@import "base/vars";
+
+//Components
+
+@import "components/navbar";
+@import "components/footer";
+
+//Layout
+@import "layout/index.scss";
+@import "layout/nosotros.scss";
+@import "layout/contacto.scss";
+@import "layout/clientes.scss";
+@import "layout/servicios.scss";
+
+//Layout MediaQueries
+
+@import "layout/_mediaqueries_768.scss";
+@import "layout/_mediaqueries_1024.scss";
+@import "layout/_mediaqueries_1440.scss";
+
+
+
+h1{ font-size: 3.5em}
+h2{font-size:2.7em}
+h3{font-size:2em}
+p{font-size:1.25em}
+ul{ list-style: none;}
+
+button{
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 10px black;
+    color:white;
+    background-color: $background_Botton;
+    transition: ALL 0.5s;
+
+}
+button:hover{
+    background-color:rgb(136, 2, 96);
+    
+}
+
+.container{
+    width:100%;
+    margin:auto
+}
+
+
+
+
+
+
+
