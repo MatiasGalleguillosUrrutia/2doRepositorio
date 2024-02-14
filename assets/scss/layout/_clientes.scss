@@ -1,0 +1,51 @@
+
+
+//Nuestros Clientes
+
+
+#nuestros-clientes{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    background-color:#ffffff;
+    color:rgb(0, 0, 0);
+    padding:20px 0px;
+
+    & h2{
+        color:rgb(0, 0, 0);
+        font-size: 30px;
+    }
+
+    & h3{
+        color:rgb(0, 0, 0);
+        font-size: 20px;
+    }
+
+    & h4{
+        color:rgb(0, 0, 0);
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    & p{
+        color:rgb(138, 138, 138);
+        font-size: 15px;
+    
+    }
+
+    & .clientes-personas a img{
+        width:250px;
+        height:250px;
+        box-shadow: 2px 2px 10px black;
+        border: 1px solid black;
+        border-radius: 100%;
+        margin-bottom: 20px;
+    }  
+}
+
+.clientes-personas{
+    padding:20px
+}
+

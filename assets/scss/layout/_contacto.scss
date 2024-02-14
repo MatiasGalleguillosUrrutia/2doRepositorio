@@ -1,0 +1,80 @@
+
+
+//------HTML CONTACTO---------
+
+
+.seccion_form_contacto{
+    font-family:Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center
+}
+
+#pregunta_contacto{
+    text-align: center;
+    padding-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding:50px;
+    font-weight: bold;
+    
+    
+}
+
+.seccion_form_contacto{
+    padding-bottom:60px
+}
+
+
+form{
+    margin:30px;
+    text-align: left;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px;
+    margin-bottom: 40px;
+}
+
+.form-content{
+    display:flex;
+    flex-direction: column;
+}
+
+label{
+    color:rgb(71, 71, 71);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 10px 15px;
+    background-color: rgb(236, 235, 235);
+    border: 0;
+    outline: none;
+    font-size:16px
+}
+
+textarea{
+    padding: 10px 15px;
+    background-color: rgb(236, 235, 235);
+    border: 0;
+    outline: none;
+    font-size:15px;
+    font-weight: lighter;
+
+}
+
+::placeholder{
+    color:rgb(196, 196, 196);
+    font-family: Arial, Helvetica, sans-serif;
+} 
