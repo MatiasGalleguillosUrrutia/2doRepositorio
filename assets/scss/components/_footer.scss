@@ -1,0 +1,75 @@
+
+footer{
+    background-color: $Background_Main;
+    color:white;
+
+}
+
+footer .container-datos-empresa{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+footer .container-datos{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container-datos{
+    padding: 10px;
+}
+
+footer .container-datos span{
+    padding: 5px;
+}
+
+footer a img{
+    width:100px
+}
+
+
+
+.container-redes-sociales{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-redes-sociales i {
+    padding:20px
+}
+
+.container-redes-sociales a{
+    list-style: none;
+    text-decoration: none;
+    color:white
+}
+
+.container-nav-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.container-nav-footer li{
+    text-decoration: none;
+    color:white;
+    list-style:none;
+    
+}
+.container-nav-footer li a{
+    text-decoration: none;
+    color:white;
+    list-style: none;
+}

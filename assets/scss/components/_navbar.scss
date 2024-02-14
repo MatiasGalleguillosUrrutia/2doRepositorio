@@ -1,0 +1,33 @@
+
+// Nav bar 
+.navbar {
+    padding: 1rem;
+    background-color: $Background_Main;
+
+}
+
+.navbar-brand{
+    display: none;
+}
+
+.navbar button{
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.navbar button:hover{
+    padding: 1rem;
+    background-color: rgb(185, 185, 185);
+
+}
+
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar-collapse a{
+    color:white;
+}
