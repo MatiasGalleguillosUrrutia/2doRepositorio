@@ -1,4 +1,3 @@
-
 // Secciones 
 
 #hero{
@@ -95,6 +94,8 @@
         border:2px solid $background_Botton;
         border-radius: 100%;
         color:white;
+        
+        
 
         & i{
             display: flex;
@@ -128,6 +129,8 @@
     }
 
 }
+
+
 
 
 #Quienes-Somos{
@@ -184,3 +187,16 @@
     }
     
 }
+
+// keyframes
+
+@keyframes appear {
+    0%, 25% {
+      opacity: 0;
+    }
+    50%, 100% {
+      opacity: 1;
+    }
+  }
+  
+ 
