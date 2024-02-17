@@ -244,7 +244,7 @@ footer a img {
   margin: 20px;
   text-align: center;
 }
-.personas a img {
+.personas img {
   width: 250px;
   height: 250px;
   border-radius: 100%;
@@ -549,7 +549,7 @@ textarea {
   .personas h4 {
     font-size: 20px;
   }
-  .personas a img {
+  .personas img {
     width: 300px;
     height: 300px;
   }
@@ -724,7 +724,7 @@ textarea {
   .personas h4 {
     font-size: 20px;
   }
-  .personas a img {
+  .personas img {
     width: 300px;
     height: 300px;
   }
@@ -863,7 +863,7 @@ textarea {
     justify-content: center;
     margin: 100px;
   }
-  .personas a img {
+  .personas img {
     width: 350px;
     height: 350px;
     border-radius: 100%;
