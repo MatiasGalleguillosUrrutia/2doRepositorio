@@ -229,8 +229,6 @@
         
     }
 
-    
-
     #Mision-Vision  {
         display: flex;
         flex-direction: column;
@@ -247,7 +245,6 @@
 
     #Mision-Vision .container p {
         font-size: 20px;
-        color:rgb(155, 155, 155);
         text-align: left;
     }
 
@@ -294,7 +291,7 @@
 
     #nuestros-clientes h3{
         color:rgb(1, 1, 56);
-        margin-top:40px;
+        margin-top:20px;
         font-size: 30px;
     }
 
@@ -315,7 +312,7 @@
     
     }
 
-    #nuestros-clientes .clientes-personas a img{
+    #nuestros-clientes .clientes-personas img{
         width:300px;
         height:300px;
         box-shadow: 2px 2px 10px black;
