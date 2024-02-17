@@ -146,7 +146,7 @@ footer a img {
   justify-content: center;
   text-align: center;
   margin: 40px;
-  font-size: 10px;
+  font-size: 8px;
 }
 #automatiza-tus-datos button {
   margin-top: 50px;
@@ -470,7 +470,11 @@ textarea {
 }
 
 #nuestros-servicios .col-sm-4 h2 {
-  font-size: 24px;
+  font-size: 20px;
+}
+#nuestros-servicios .col-sm-4 img {
+  width: 300px;
+  height: 200px;
 }
 
 @media (min-width: 768px) {
@@ -643,6 +647,16 @@ textarea {
     display: block;
     font-size: 12px;
   }
+  #nuestros-servicios .col-sm-4 img {
+    width: 500px;
+    height: 150px;
+  }
+  #nuestros-servicios .col-sm-4 h2 {
+    font-size: 20px;
+  }
+  #nuestros-servicios .col-sm-4 p {
+    font-size: 13px;
+  }
 }
 @media (min-width: 1024px) {
   .navbar-brand {
@@ -733,6 +747,13 @@ textarea {
   .personas img {
     width: 300px;
     height: 300px;
+  }
+  #nuestros-servicios .col-sm-4 img {
+    width: 600px;
+    height: 200px;
+  }
+  #nuestros-servicios .col-sm-4 p {
+    font-size: 15px;
   }
 }
 @media (min-width: 1440px) {
