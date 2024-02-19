@@ -1,6 +1,9 @@
 
 @media (min-width: 1024px){
 
+
+    // Css General
+
     .navbar-brand{
         display:block ;
     }
@@ -9,91 +12,83 @@
         display:none
     }
 
-
-    .video_fondo {
-        
-        width: 100%;
-        top: -20px;
-        height: auto;
-        transform: scale(2, 2);
-        left:10px
-
-    }
-
     .content{
         text-align: end;
+
+        & h1{
+            padding:0px 30px;
+            color:rgb(255, 255, 255);
+            font-size: 40px;
+            font-weight: bold;
+            text-align: end;
+
+            & span{
+                color:rgb(255, 255, 255);
+                font-size: 60px;
+                }
+            }
+
+        & button{
+            width:auto;
+            font-size: 20px;
+            margin:0px 50px
+            }
     }
 
-    .content h1{
-        padding:0px 30px;
-        color:rgb(255, 255, 255);
-        font-size: 40px;
-        font-weight: bold;
-        text-align: end;
-    }
 
-    .content h1 span{
-        color:rgb(255, 255, 255);
-        font-size: 60px;
-    }
+    // Css de HTML : Index
 
-    .content button{
-        width:auto;
-        font-size: 20px;
-        margin:0px 50px
-    }
-
-    // NUESTRO PROCESO 
+    //Sección Nuestro Proceso
     
    
-    #nuestro-proceso h2{
-        color:white;
-        font-size: 40px;
+    #nuestro-proceso {
+
+        & h2{
+            color:white;
+            font-size: 40px;
+            }
+
+        & .container-nuestroproceso-circular{
+            width:300px;
+            height:300px;
+
+            & i{
+                font-size: 60px;
+                color:white;
+                }
+            
+            & span{
+                font-size: 70px;
+                color:white;
+                }
+            
+            & p{
+                font-size: 22px;
+                color:white;
+                max-width: 250px;
+                text-align: center;
+                }
+            }
+
+        & .icon-flecha{
+            font-size: 40px;
+            }
         
-    }
-    #nuestro-proceso .container-nuestroproceso-circular{
-        width:300px;
-        height:300px;
-        
-    }
+        & .material-symbols-outlined{
+            font-size: 50px;
+            color:white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:50%;
+            height:40%;
+            font-size: 50px;
+            color:white
+            }
 
-    #nuestro-proceso .container-nuestroproceso-circular i{
-        font-size: 60px;
-        color:white;
-        
-    }
-
-    #nuestro-proceso .container-nuestroproceso-circular span{
-        font-size: 70px;
-        color:white;
-        
     }
 
-    #nuestro-proceso .container-nuestroproceso-circular p{
-        font-size: 22px;
-        color:white;
-        max-width: 250px;
-        text-align: center;
-    }
-
-    #nuestro-proceso .icon-flecha{
-        font-size: 40px;
-    }
-
-    #nuestro-proceso .material-symbols-outlined{
-        font-size: 50px;
-        color:white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width:50%;
-        height:40%;
-        font-size: 50px;
-        color:white
-    }
-
-
-    //QUIENES SOMOS
+    //Sección Quiénes somos
     
     
     .personas{
@@ -103,41 +98,37 @@
         width:auto;
         height:auto;
         padding:20px;
+
+        & h3{
+            font-size:30px;
+            padding-top:10px;
+            padding-bottom: 0;
+            font-weight: bold;
+            }
         
+        & h4{
+            font-size:20px; 
+        }
+
+        & img{
+            width:300px;
+            height:300px; 
+            }
     }
     
-    .personas h3{
-        font-size:30px;
-        padding-top:10px;
-        padding-bottom: 0;
-        font-weight: bold;
-    }
     
-    .personas h4{
-        font-size:20px;
-        
-    }
 
-    .personas img{
-        width:300px;
-        height:300px;
-        
-        
-    }
-
-    // HTML SERVICIOS
+    // Css de HTML : Servicios
 
     #nuestros-servicios .col-sm-4{
 
         img{
             width:600px;
             height:200px
-        }
+            }
 
         p{
             font-size: 15px;
-        }
-        
-        
+            }
     }
 }

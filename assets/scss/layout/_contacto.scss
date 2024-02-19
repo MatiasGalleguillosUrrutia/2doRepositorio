@@ -1,6 +1,5 @@
 
-
-//------HTML CONTACTO---------
+//CSS del HTML: Contacto
 
 
 .seccion_form_contacto{
@@ -8,33 +7,25 @@
     display:flex;
     flex-direction: column;
     align-items:center;
-    justify-content: center
+    justify-content: center;
+    padding:50px 50px ;
 }
 
 #pregunta_contacto{
     text-align: center;
-    padding-top: 5%;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-size: 20px;
-    padding:50px;
     font-weight: bold;
-    
-    
-}
-
-.seccion_form_contacto{
-    padding-bottom:60px
 }
 
 
 form{
-    margin:30px;
+    margin:50px 30px;
     text-align: left;
     display:flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 
 .form-group{

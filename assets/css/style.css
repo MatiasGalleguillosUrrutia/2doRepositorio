@@ -9,30 +9,66 @@ body {
   font-family: "Roboto";
 }
 
+ol,
+ul {
+  padding: 0px;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 2.7em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  font-size: 2em;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 10px black;
+  color: white;
+  background-color: rgb(202, 0, 142);
+  transition: ALL 0.5s;
+}
+
+button:hover {
+  background-color: rgb(136, 2, 96);
+}
+
 .navbar {
   padding: 1rem;
   background-color: #09152B;
 }
-
-.navbar-brand {
-  display: none;
-}
-
 .navbar button {
   padding: 1rem;
   background-color: rgb(255, 255, 255);
 }
-
 .navbar button:hover {
   padding: 1rem;
   background-color: rgb(185, 185, 185);
 }
-
+.navbar-brand {
+  display: none;
+}
 .navbar-collapse {
   align-items: center;
   justify-content: space-between;
 }
-
 .navbar-collapse a {
   color: white;
 }
@@ -41,7 +77,6 @@ footer {
   background-color: #09152B;
   color: white;
 }
-
 footer .container-datos-empresa {
   display: flex;
   flex-direction: column;
@@ -49,22 +84,16 @@ footer .container-datos-empresa {
   align-items: center;
   align-content: center;
 }
-
 footer .container-datos {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-footer .container-datos {
   padding: 10px;
 }
-
 footer .container-datos span {
   padding: 5px;
 }
-
 footer a img {
   width: 100px;
 }
@@ -75,11 +104,9 @@ footer a img {
   justify-content: center;
   align-items: center;
 }
-
 .container-redes-sociales i {
   padding: 20px;
 }
-
 .container-redes-sociales a {
   list-style: none;
   text-decoration: none;
@@ -91,16 +118,12 @@ footer a img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  padding: 10px;
 }
-
 .container-nav-footer li {
   text-decoration: none;
   color: white;
   list-style: none;
 }
-
 .container-nav-footer li a {
   text-decoration: none;
   color: white;
@@ -160,7 +183,7 @@ footer a img {
   background-color: #09152B;
   height: 100%;
   border: 1px solid white;
-  padding: 50px 0px;
+  padding: 20px 0px;
 }
 #nuestro-proceso .container {
   width: 100%;
@@ -220,12 +243,11 @@ footer a img {
   align-items: center;
   justify-content: center;
   height: 100%;
+  padding: 20px 0px;
 }
 #Quienes-Somos h2 {
   color: Black;
-  margin-top: 20px;
   font-size: 30px;
-  margin-bottom: 0px;
 }
 #Quienes-Somos .container {
   display: flex;
@@ -260,14 +282,6 @@ footer a img {
   font-weight: bold;
 }
 
-@keyframes appear {
-  0%, 25% {
-    opacity: 0;
-  }
-  50%, 100% {
-    opacity: 1;
-  }
-}
 #Nosotros {
   display: flex;
   flex-direction: column;
@@ -359,24 +373,19 @@ footer a img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 50px 50px;
 }
 
 #pregunta_contacto {
   text-align: center;
-  padding-top: 5%;
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   font-size: 20px;
-  padding: 50px;
   font-weight: bold;
 }
 
-.seccion_form_contacto {
-  padding-bottom: 60px;
-}
-
 form {
-  margin: 30px;
+  margin: 50px 30px;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -589,13 +598,6 @@ textarea {
     align-items: center;
     width: 100%;
   }
-  .container-redes-sociales {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
   .container-redes-sociales i {
     padding: 40px;
   }
@@ -635,7 +637,7 @@ textarea {
     font-size: 20px;
     padding: 0px 30px;
   }
-  #nuestros-clientes .clientes-personas img {
+  #nuestros-clientes p .clientes-personas img {
     width: 250px;
     height: 250px;
     box-shadow: 2px 2px 10px black;
@@ -664,13 +666,6 @@ textarea {
   }
   .navbar-icon {
     display: none;
-  }
-  .video_fondo {
-    width: 100%;
-    top: -20px;
-    height: auto;
-    transform: scale(2, 2);
-    left: 10px;
   }
   .content {
     text-align: end;
@@ -770,13 +765,6 @@ textarea {
     position: relative;
     height: 600px;
     overflow: hidden;
-  }
-  .video_fondo {
-    width: 100%;
-    top: -250px;
-    height: auto;
-    transform: scale(2, 2);
-    left: 10px;
   }
   .content {
     position: absolute;
@@ -884,25 +872,26 @@ textarea {
     margin: 0px;
     padding: 0px;
   }
-  .personas {
+  #Quienes-Somos #Quienes-Somos .personas {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 100px;
   }
-  .personas img {
+  #Quienes-Somos #Quienes-Somos .personas img {
     width: 350px;
     height: 350px;
     border-radius: 100%;
     box-shadow: 2px 2px 10px black;
   }
-  .personas h2, h3 {
+  #Quienes-Somos #Quienes-Somos .personas h2 {
     padding: 10px;
   }
-  .personas h3 {
+  #Quienes-Somos #Quienes-Somos .personas h3 {
     font-size: 30px;
+    padding: 10px;
   }
-  .personas h4 {
+  #Quienes-Somos #Quienes-Somos .personas h4 {
     font-size: 20px;
   }
   #pregunta_contacto {
@@ -970,7 +959,6 @@ textarea {
   }
   #nuestros-clientes h2 {
     color: rgb(1, 1, 56);
-    margin-top: 50px;
     font-size: 40px;
   }
   #nuestros-clientes h3 {
@@ -993,46 +981,6 @@ textarea {
     height: 300px;
     box-shadow: 2px 2px 10px black;
   }
-}
-h1 {
-  font-size: 3.5em;
-}
-
-h2 {
-  font-size: 2.7em;
-}
-
-h3 {
-  font-size: 2em;
-}
-
-p {
-  font-size: 1.25em;
-}
-
-ul {
-  list-style: none;
-}
-
-button {
-  font-size: 2em;
-  font-weight: bold;
-  padding: 10px;
-  border-radius: 10px;
-  border: 1px solid black;
-  box-shadow: 2px 2px 10px black;
-  color: white;
-  background-color: rgb(202, 0, 142);
-  transition: ALL 0.5s;
-}
-
-button:hover {
-  background-color: rgb(136, 2, 96);
-}
-
-.container {
-  width: 100%;
-  margin: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

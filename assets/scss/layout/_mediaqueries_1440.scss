@@ -1,6 +1,8 @@
 
 @media (min-width: 1440px){
 
+    // Css General
+
     .navbar-brand{
         display:block ;
     }
@@ -9,6 +11,12 @@
         display:none
     }
     
+
+    // Css de HTML : Index
+
+    //Sección Hero
+
+
     #hero{
         height:600px;
     }
@@ -19,121 +27,118 @@
         overflow: hidden;
     }
 
-    .video_fondo {
-        
-        width: 100%;
-        top: -250px;
-        height: auto;
-        transform: scale(2, 2);
-        left:10px
-
-    }
 
     .content{
         position:absolute;
-        right:100px
+        right:100px;
+
+        & h1{
+            color:rgb(255, 255, 255);
+            font-size: 60px;
+            font-weight: bold;
+
+            & span{
+                color:rgb(255, 255, 255);
+                font-size: 130px;
+                }
+            }
+        
+        & button{
+            width:auto;
+            font-size: 20px;
+            }
+
     }
 
-    .content h1{
-        color:rgb(255, 255, 255);
-        font-size: 60px;
-        font-weight: bold;
-    }
-
-    .content h1 span{
-        color:rgb(255, 255, 255);
-        font-size: 130px;
-    }
-
-    .content button{
-        width:auto;
-        font-size: 20px;
-    }
-
+    //Sección Automatiza tus datos
 
     #automatiza-tus-datos{
         align-items: center;
-        width:auto
+        width:auto;
+
+        & h2{
+            font-size: 30px;
+            max-width:700px
+            }
+        
+        & button{
+            margin-top:40px;
+            font-size: 20px;
+        }
+    
     }
 
-    #automatiza-tus-datos h2{
-        font-size: 30px;
-        max-width:700px
-    }
+    //Sección Nuestro Proceso
 
-    #automatiza-tus-datos button{
-        margin-top:40px;
-        font-size: 20px;
-    }
+    #nuestro-proceso {
 
-
-    #nuestro-proceso h2{
+        & h2{
         color:white;
         margin-top:50px;
         font-size: 40px;
-    }
+        }
 
-    #nuestro-proceso .container{
-        display:flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
+        & .container{
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            }
+        & .container-nuestroproceso-circular{
+            display:flex;
+            flex-direction: column;
+            margin:20px;
+            width:300px;
+            height:300px;
+            justify-content: center;
+            align-items: center;
+            margin:20px;
+            border:2px solid rgb(136, 2, 96);
+            border-radius: 100%;
 
-    #nuestro-proceso .container-nuestroproceso-circular{
-        display:flex;
-        flex-direction: column;
-        margin:20px;
-        width:300px;
-        height:300px;
-        justify-content: center;
-        align-items: center;
-        margin:20px;
-        border:2px solid rgb(136, 2, 96);
-        border-radius: 100%;
-    }
-
-    #nuestro-proceso .container-nuestroproceso-circular i{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width:50%;
-        height:40%;
-        font-size: 40px;
-        color:white;
+            & i{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width:50%;
+                height:40%;
+                font-size: 40px;
+                color:white;  
+                }
+            
+            & span{
+                font-size: 40px;
+                color:white;
+                }
+            
+            & p{
+                font-size: 18px;
+                color:white;
+                max-width: 250px;
+                }
+            }
         
-    }
-
-    #nuestro-proceso .container-nuestroproceso-circular span{
-        font-size: 40px;
-        color:white;
+        & .icon-flecha{
+            font-size: 50px;
+            color:white;
+            transform: rotate(0deg); 
+            }
         
+        & .material-symbols-outlined{
+            font-size: 50px;
+            color:white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:50%;
+            height:40%;
+            font-size: 50px;
+            color:white
+            }
     }
 
-    #nuestro-proceso .container-nuestroproceso-circular p{
-        font-size: 18px;
-        color:white;
-        max-width: 250px;
-    }
-
-    #nuestro-proceso .icon-flecha{
-        font-size: 50px;
-        color:white;
-        transform: rotate(0deg); 
-    }
-
-    #nuestro-proceso .material-symbols-outlined{
-        font-size: 50px;
-        color:white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width:50%;
-        height:40%;
-        font-size: 50px;
-        color:white
-    }
-
+ 
+    //Sección Quiénes Somos
 
     #Quienes-Somos{
         display: flex;
@@ -141,55 +146,55 @@
         align-items: center;
         justify-content: center;
         height:700px;
+
+        & h2{
+            color:rgb(1, 1, 56);
+            margin-top:60px;
+            font-size: 40px;
+            }
+        
+        & .container{
+            display:flex;
+            flex-direction: row;
+            width: 100%;
+            height:100%;
+            margin:0px;
+            padding:0px;
+            }
     }
     
-    #Quienes-Somos h2{
-        color:rgb(1, 1, 56);
-        margin-top:60px;
-        font-size: 40px;
-    }
+    #Quienes-Somos 
 
-    #Quienes-Somos .container{
-        display:flex;
-        flex-direction: row;
-        width: 100%;
-        height:100%;
-        margin:0px;
-        padding:0px;
-    }
-
+    #Quienes-Somos 
     .personas{
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin:100px;
-    }
 
-    .personas img{
-        width:350px;
-        height:350px;
-        border-radius: 100%;
-        box-shadow: 2px 2px 10px black;
+        & img{
+            width:350px;
+            height:350px;
+            border-radius: 100%;
+            box-shadow: 2px 2px 10px black;
+            }
         
-    }
-
-    .personas h2,h3{
-        padding:10px
+        & h2{
+            padding:10px
+            }
         
+        & h3{
+            font-size: 30px;
+            padding:10px
+        }
+
+        & h4{
+            font-size: 20px;
+        }
     }
 
-    .personas h3{
-        font-size: 30px;
-        
-    }
 
-    .personas h4{
-        font-size: 20px;
-        
-    }
-
-
-    //-----HTML CONTACTO---
+    // Css de HTML : Contacto
 
     
     #pregunta_contacto{
@@ -212,7 +217,9 @@
 
 
 
-    //-------HTML NOSOTROS---
+    // Css de HTML : Nosotros
+
+    //Seccion Nosotros
 
     #Nosotros{
         display:flex;
@@ -221,32 +228,34 @@
         text-align:center;
         background-color:#09152B;
         color:white;
+
+        & div p{
+            padding:50px 50px
+            }
         
     }
 
-    #Nosotros div p{
-       padding:50px 50px
-        
-    }
+    //Seccion MisionVision
 
     #Mision-Vision  {
         display: flex;
         flex-direction: column;
+
+        & .container {
+            display: flex;
+
+            & h2 {
+                font-size: 30px;
+                }
+            
+            & p {
+                font-size: 20px;
+                text-align: left;
+                }
+            }
     }
 
-    #Mision-Vision .container {
-        display: flex;
-    }
-
-    #Mision-Vision .container h2 {
-        font-size: 30px;
-        
-    }
-
-    #Mision-Vision .container p {
-        font-size: 20px;
-        text-align: left;
-    }
+    //Seccion Nuestros Valores
 
     #Nuestros-valores{
         display:flex;
@@ -256,21 +265,20 @@
         background-color:#d6d6d6;
         height:400px;
         color:rgb(0, 0, 0);
+
+        & h2{
+            font-size: 30px;
+            }
         
+        & .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            }
     }
 
-    #Nuestros-valores h2{
-        font-size: 30px;
-    }
-    
-    #Nuestros-valores .container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-
-    //Nuestros Clientes//
+    //Seccion Nuestros Clientes
 
 
     #nuestros-clientes{
@@ -280,42 +288,36 @@
         text-align:center;
         background-color:#ffffff;
         color:rgb(0, 0, 0);
+
+        & h2{
+            color:rgb(1, 1, 56);
+            font-size: 40px;
+            }
+        
+        & h3{
+            color:rgb(1, 1, 56);
+            margin-top:20px;
+            font-size: 30px;
+            }
+
+        & .container{
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+            }
+        
+        & .clientes-personas{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            & img{
+                width:300px;
+                height:300px;
+                box-shadow: 2px 2px 10px black;
+                } 
+            }
         
     }
 
-    #nuestros-clientes h2{
-        color:rgb(1, 1, 56);
-        margin-top:50px;
-        font-size: 40px;
-    }
-
-    #nuestros-clientes h3{
-        color:rgb(1, 1, 56);
-        margin-top:20px;
-        font-size: 30px;
-    }
-
-
-    #nuestros-clientes .container{
-        display:flex;
-        flex-direction: row;
-        justify-content: center;
-        
-        
-    }
-
-    #nuestros-clientes .clientes-personas{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
-    
-    }
-
-    #nuestros-clientes .clientes-personas img{
-        width:300px;
-        height:300px;
-        box-shadow: 2px 2px 10px black;
-
-    } 
 }

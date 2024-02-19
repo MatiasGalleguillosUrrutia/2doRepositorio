@@ -1,4 +1,8 @@
-// Secciones 
+//CSS del HTML: Index
+
+
+
+//Sección HERO
 
 #hero{
     display:flex;
@@ -37,6 +41,7 @@
     
 }
 
+// Sección Automatiza tus datos
 
 #automatiza-tus-datos{
     display:flex;
@@ -52,6 +57,7 @@
 }
 
 
+// Sección Nuestro Proceso
 
 #nuestro-proceso{
     display:flex;
@@ -61,7 +67,7 @@
     background-color:$Background_Main;
     height:100%;
     border:1px solid white;
-    padding:50px 0px;
+    padding:20px 0px;
 
     & .container{
         width:100%;
@@ -130,7 +136,7 @@
 }
 
 
-
+// Sección Quiénes Somos
 
 #Quienes-Somos{
     display: flex;
@@ -138,12 +144,11 @@
     align-items: center;
     justify-content: center;
     height:100%;
+    padding:20px 0px;
 
     & h2{
         color:$Color_Titulos_secciones;
-        margin-top:20px;
         font-size: 30px;
-        margin-bottom:0px;
         
     }
     
@@ -186,16 +191,3 @@
     }
     
 }
-
-// keyframes
-
-@keyframes appear {
-    0%, 25% {
-      opacity: 0;
-    }
-    50%, 100% {
-      opacity: 1;
-    }
-  }
-  
- 

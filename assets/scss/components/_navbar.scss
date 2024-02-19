@@ -4,30 +4,28 @@
     padding: 1rem;
     background-color: $Background_Main;
 
-}
+    & button{
+        padding: 1rem;
+        background-color: rgb(255, 255, 255);
+    }
 
-.navbar-brand{
-    display: none;
-}
+    & button:hover{
+        padding: 1rem;
+        background-color: rgb(185, 185, 185);
+    }
 
-.navbar button{
-    padding: 1rem;
-    background-color: rgb(255, 255, 255);
+    &-brand{
+        display: none;
+    }
 
-}
+    &-collapse{
+        align-items: center;
+        justify-content: space-between;
 
-.navbar button:hover{
-    padding: 1rem;
-    background-color: rgb(185, 185, 185);
+        & a{
+            color:white;
+        }
+    
+    }
 
-}
-
-
-.navbar-collapse{
-    align-items: center;
-    justify-content: space-between;
-
-}
-.navbar-collapse a{
-    color:white;
 }
