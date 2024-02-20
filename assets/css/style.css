@@ -43,11 +43,11 @@ button {
   box-shadow: 2px 2px 10px black;
   color: white;
   background-color: rgb(202, 0, 142);
-  transition: ALL 0.5s;
+  transition: ALL 0.4s;
 }
-
 button:hover {
-  background-color: rgb(136, 2, 96);
+  transform: scale(1.1);
+  background-color: rgb(179, 2, 126);
 }
 
 .navbar {
@@ -193,6 +193,31 @@ footer a img {
   justify-content: center;
   align-items: center;
 }
+#nuestro-proceso .container :nth-child(1) {
+  opacity: 0;
+  animation: efecto 2s 1 linear forwards;
+  animation-delay: 0s;
+}
+#nuestro-proceso .container :nth-child(2) {
+  opacity: 0;
+  animation: efecto 2s 1 linear forwards;
+  animation-delay: 1s;
+}
+#nuestro-proceso .container :nth-child(3) {
+  opacity: 0;
+  animation: efecto 2s 1 linear forwards;
+  animation-delay: 2s;
+}
+#nuestro-proceso .container :nth-child(4) {
+  opacity: 0;
+  animation: efecto 2s 1 linear forwards;
+  animation-delay: 3s;
+}
+#nuestro-proceso .container :nth-child(5) {
+  opacity: 0;
+  animation: efecto 2s 1 linear forwards;
+  animation-delay: 4s;
+}
 #nuestro-proceso h2 {
   color: white;
   font-size: 30px;
@@ -266,22 +291,47 @@ footer a img {
   margin: 20px;
   text-align: center;
 }
+.personas:hover h3 {
+  transition: 1s;
+  transform: translateY(40%);
+  font-size: 30px;
+}
+.personas:hover h4 {
+  transition: 1s;
+  transform: translateY(70%);
+  font-size: 20px;
+}
 .personas img {
   width: 250px;
   height: 250px;
   border-radius: 100%;
   box-shadow: 2px 2px 10px black;
+  transition: 1s;
+}
+.personas img:hover {
+  transform: scale(1.1);
+  transition: 1s;
 }
 .personas h3 {
   font-size: 25px;
   padding-top: 10px;
   padding-bottom: 0;
+  transition: 1s;
 }
 .personas h4 {
   font-size: 15px;
   font-weight: bold;
+  transition: 1s;
 }
 
+@keyframes efecto {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 #Nosotros {
   display: flex;
   flex-direction: column;
@@ -468,6 +518,11 @@ textarea {
   border: 1px solid black;
   border-radius: 100%;
   margin-bottom: 20px;
+  transition: 1s;
+}
+#nuestros-clientes .clientes-personas img:hover {
+  transform: scale(1.1);
+  transition: 1s;
 }
 
 .clientes-personas {
@@ -478,12 +533,28 @@ textarea {
   display: none;
 }
 
+#nuestros-servicios .text-sm {
+  padding-bottom: 20px;
+}
+#nuestros-servicios .col-sm-4 {
+  transition: 1s;
+  min-height: 300px;
+  max-height: 100%;
+}
+#nuestros-servicios .col-sm-4:hover {
+  transition: 1s;
+  transform: scale(1.05);
+}
 #nuestros-servicios .col-sm-4 h2 {
   font-size: 20px;
 }
 #nuestros-servicios .col-sm-4 img {
   width: 300px;
   height: 200px;
+}
+#nuestros-servicios .col-sm-4 .card-body {
+  min-height: 250px;
+  max-height: 100%;
 }
 
 @media (min-width: 768px) {
@@ -560,13 +631,9 @@ textarea {
     padding: 20px;
   }
   .personas h3 {
-    font-size: 30px;
     padding-top: 10px;
     padding-bottom: 0;
     font-weight: bold;
-  }
-  .personas h4 {
-    font-size: 20px;
   }
   .personas img {
     width: 300px;
@@ -730,13 +797,9 @@ textarea {
     padding: 20px;
   }
   .personas h3 {
-    font-size: 30px;
     padding-top: 10px;
     padding-bottom: 0;
     font-weight: bold;
-  }
-  .personas h4 {
-    font-size: 20px;
   }
   .personas img {
     width: 300px;
@@ -871,27 +934,23 @@ textarea {
     margin: 0px;
     padding: 0px;
   }
-  #Quienes-Somos #Quienes-Somos .personas {
+  #Quienes-Somos .personas {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 100px;
   }
-  #Quienes-Somos #Quienes-Somos .personas img {
+  #Quienes-Somos .personas img {
     width: 350px;
     height: 350px;
     border-radius: 100%;
     box-shadow: 2px 2px 10px black;
   }
-  #Quienes-Somos #Quienes-Somos .personas h2 {
+  #Quienes-Somos .personas h2 {
     padding: 10px;
   }
-  #Quienes-Somos #Quienes-Somos .personas h3 {
-    font-size: 30px;
+  #Quienes-Somos .personas h3 {
     padding: 10px;
-  }
-  #Quienes-Somos #Quienes-Somos .personas h4 {
-    font-size: 20px;
   }
   #pregunta_contacto {
     font-size: 25px;
