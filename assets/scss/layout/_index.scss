@@ -15,8 +15,6 @@
     background-color: $Background_Main;
     height:100%;
     overflow: hidden;
-    
-    
 }
 
 .content{
@@ -44,10 +42,8 @@
 // Sección Automatiza tus datos
 
 #automatiza-tus-datos{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    @include flexible(flex,column,nowrap,center,center,center);
+
     margin:40px;
     font-size: 8px;
 
@@ -60,10 +56,7 @@
 // Sección Nuestro Proceso
 
 #nuestro-proceso{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align:center;
+    @include flexible(flex,column,nowrap,center,center,center);
     background-color:$Background_Main;
     height:100%;
     border:1px solid white;
@@ -72,10 +65,7 @@
     & .container{
         width:100%;
         height:100%;
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include flexible(flex,column,nowrap,center,center,center);
 
         :nth-child(1) {
             opacity:0;
@@ -121,11 +111,9 @@
     }
     
     & .container-nuestroproceso-circular{
-        display:flex;
-        flex-direction: column;
+        @include flexible(flex,column,nowrap,center,center,center);
         width:160px;
         height:160px;
-        justify-content: center;
         align-items: center;
         margin:20px;
         border:2px solid $background_Botton;
@@ -135,9 +123,7 @@
         
 
         & i{
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include flexible(flex,column,nowrap,center,center,center);
             width:50%;
             height:40%;
             font-size: 30px;
@@ -171,37 +157,29 @@
 // Sección Quiénes Somos
 
 #Quienes-Somos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    @include flexible(flex,column,nowrap,center,center,center);
     height:100%;
     padding:20px 0px;
 
     & h2{
         color:$Color_Titulos_secciones;
         font-size: 30px;
-        
     }
     
     & .container{
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include flexible(flex,column,nowrap,center,center,center);
         
-    }
+
+    }    
 }
 
 .personas{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    @include flexible(flex,column,nowrap,center,center,center);
     width:auto;
     height:auto;
     padding:20px;
     margin:20px;
-    text-align: center;
+    
     
 
     &:hover h3{

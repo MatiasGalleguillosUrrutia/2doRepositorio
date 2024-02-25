@@ -4,11 +4,7 @@
 
 
 #nuestros-clientes{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align:center;
+    @include flexible(flex,column,nowrap,center,center,center);
     background-color:#ffffff;
     color:rgb(0, 0, 0);
     padding:20px 0px;
